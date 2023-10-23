@@ -27,7 +27,7 @@ const FAQ = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion defaultExpanded>
+      <Accordion default>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
             Another Important Question
@@ -40,7 +40,7 @@ const FAQ = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion defaultExpanded>
+      <Accordion default>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
             Your Favorite Question
@@ -53,7 +53,7 @@ const FAQ = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion defaultExpanded>
+      <Accordion default>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
             Some Random Question
@@ -66,7 +66,7 @@ const FAQ = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion defaultExpanded>
+      <Accordion default>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
             The Final Question
@@ -79,6 +79,34 @@ const FAQ = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
+      <Box mt="20px">
+      <Accordion default>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            Our Goal
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion default>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            Excptation Unexception
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      </Box>
     </Box>
   );
 };
